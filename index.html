@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    
+    <title>DINOSABIO</title>
+
+    <!--Link Favicon-->
+    <link rel="shortcut icon" href="./Images/logo.jpeg">
+
+    <!--Link Css-->
+    <link rel="stylesheet" href="./styles/inicio.css">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel-rtl/">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Link font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="menu">
+            <img class="logo" src="./Images/logo.png" height="90px">
+            <ul class="menu_items" id="menu_items">
+                <li class="active" id="in"><a href="./index.html">Inicio</a></li>
+                <li><a id="nos" href="./Pages/nosotros.html">Nosotros</a></li>
+                <li><a id="paq" href="./Pages/paquetes.html">Paquetes</a></li>
+                <li><a id="con" href="./Pages/contactanos.html">Contáctanos</a></li>
+            </ul>
+            <span class="btn_menu">
+                <i class="fas fa-bars"></i>
+            </span>
+        </nav>
+    </header>
+
+        
+      <!---Comienzan los contenedores-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/1-contenedor.jpg" class="d-block w-100" alt="Contenedor1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/2-contenedor.jpg" class="d-block w-100" alt="Contenedor2">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/3-contenedor.jpg" class="d-block w-100" alt="Contenedor3">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/4-contendor.jpg" class="d-block w-100" alt="Contenedor4">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/5-contendor.jpg" class="d-block w-100" alt="Contenedor5">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+      <!---Terminan los contenedores-->
+
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <br><br>
+        <div class="container marketing">
+
+            <!-- Fours columns of text below the carousel -->
+            <b><h2>TIPOS DE TARJETAS</h2></b>
+            <hr>
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="bd-placeholder-img rounded-circle img_ta" width="140" height="140"
+                    xmlns="" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false" 
+                    src="./Images/tarjetas/abecedario/A.png" alt="A" style="display: block; margin: auto;">
+                    <rect width="100%" height="100%"/>
+                    <h3 class="tarjetas">Abecedario</h3>
+                    <p >En este paquete encontrara el abecedario para que tu niño o niña puede visualizarlas y entenderlas mejor.</p>                    
+                    <p style="text-align: center; "><a class="btn btn-secondary" style="background:#2ba3a196;" href="./Pages/paquetes.html">Mostrar</a></p>
+                </div><!-- /.col-lg-3 -->
+
+                <div class="col-lg-3">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false" 
+                    src="./Images/tarjetas/granja/BURRO.PNG" alt="BURRO"
+                    style="display: block; margin: auto;">
+                    <rect width="100%" height="100%"/>
+                    <h3 class="tarjetas">Granja</h3>
+                    <p>El paquete granja nos mostraran animales domesticados, asi nuestros pequeños los reconoceran.</p>                    
+                    <p style="text-align: center;"><a class="btn btn-secondary" style="background:#4be68d;" href="./Pages/paquetes.html">Mostrar</a></p>
+                </div><!-- /.col-lg-3 -->
+
+                <div class="col-lg-3">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false" 
+                    src="./Images/tarjetas/numeros/1.PNG" alt="1"
+                    style="display: block; margin: auto;">
+                    <rect width="100%" height="100%"/>
+                    <h3 class="tarjetas">Numeros</h3>
+                    <p>Las tarjetas numeros serviran de apoyo para que los peques reconozcan los numeros de una manera dinamica.</p>                    
+                    <p style="text-align: center;"><a class="btn btn-secondary" style="background:#e6bc59;" href="./Pages/paquetes.html">Mostrar</a></p>
+                </div><!-- /.col-lg-3 -->
+
+                <div class="col-lg-3">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false" 
+                    src="./Images/tarjetas/selva/CAMALEON.PNG" alt="CAMALEON"
+                    style="display: block; margin: auto;">
+                    <rect width="100%" height="100%"/>
+                    <h3 class="tarjetas">Selva</h3>
+                    <p>Las tarjetas permitiran que los niños conozcan animales que podemos encontraremos en la vida silvestre.</p>
+                    <p style="text-align: center;"><a class="btn btn-secondary" style="background:#3e239e;" href="./Pages/paquetes.html">Mostrar</a></p>
+                </div><!-- /.col-lg-3 -->
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+
+            <hr>
+            <b><h2>OBJETIVOS</h2></b>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-8">
+                    <h3 class="featurette-heading">Expresion<span class="text-muted"> </span></h3>
+                    <p >La expresion para los niños mas pequeños es importante ya que asi se podran expresar hablando de sus gustos hobbies y pasatiempos las tarjetas facilitaran a los niños el desarrollo de su expresión verbal lo que les permitira darse a conocer a los demás.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="360"
+                        height="250" src="./Images/expresion.jpg" role="img" aria-label="Placeholder: 360x250"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    </img>
+
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h3 class="featurette-heading">Vocabulario<span class="text-muted"></span></h3>
+                    <p >Para los niños es importante poseer un vocubulario entendible y adecuado para su edad, por eso recomendamos en acompañamiento siempre por parte de los padres para el establecimiento de estos puntos importantes para el niño o niña.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="360"
+                        height="250" src="./Images/vocabulario.jpg" role="img" aria-label="Placeholder: 360x250"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    </img>
+
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-8">
+                    <h3 class="featurette-heading">Entorno<span class="text-muted"> </span></h3>
+                    <p >Brindar al niño las experiencias necesarias para que logre un adecuado desarrollo cognitivo y estimular su pensamiento hasta la formación de estructuras lógicas (siempre sera importante el acompañamiento de los padres para que a los niños se les facilite acoplarse).</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="360"
+                        height="250" src="./Images/entorno.jpg" role="img" aria-label="Placeholder: 360x250"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                </img>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h3 class="featurette-heading">Uso en niños</h3>
+                    <p >En la etapa infantil trabajamos la inteligencia y gestión emocional. Compartimos las tarjetas con juegos y experiencias que nos permiten trabajar estrategias y habilidades sociales necesarias para convivir en sociedad.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="360"
+                    height="250" src="./Images/uso.jpg" role="img" aria-label="Placeholder: 360x250"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                </img>
+
+                </div>
+            </div>
+            <p style="text-align: center;"><a class="btn btn-secondary" style="background:#3fb18b;" href="./Pages/nosotros.html">   Sobre Nosotros   </a></p>
+
+            <br>
+            <br>
+
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container"> 
+            <div class="row featurette">
+                <div class="col-md-6">
+                    <h3 class="featurette-heading">Más informacion de la empresa</h3>
+                    <p>Nos dedicamos a la elaboracion de tarjetas educativas, por las cuales niños y niñas podran identificar muchas de las cosas importantes que los rodean.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="featurette-heading">Redes sociales</h3>
+                    <div class="row">
+                        <a href="https://instagram.com/dinosabiotienda_?utm_medium=copy_link" >🚀 Siguenos en Instagram</a>
+                    </div> 
+                    <div class="row">
+                        <a href="https://api.whatsapp.com/send?phone=573219191109&text=%22Hola%2C+me+interesa+conocer+tus+productos%22">🤳 +57 313 860 27 95</a>
+                       </div>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="featurette-heading">Uso</h3>
+                    <p >las tarjetas permiten a los niños adquirir habilidades sociales para expresarse en sociedad.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container_footer">
+                <div class="copyright">
+                    @ 2021 Todos los Derechos Reservados | DINOSABIO
+                    <br>Por aprendices Sena <a href="../Pages/contactanos.html">Contáctanos</a></p>
+                </div>
+                <div class="information">
+                    <a href="">Información empresa </a>| <a href="">Politica y Privacidad </a> | <a href="">Términos y Condiciones</a>
+                </div>
+        </div>
+        </footer>
+
+
+
+
+    <!-- Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
